@@ -1,0 +1,114 @@
+/* styles/listUsers.css */
+
+*{
+    margin: 0;
+}
+
+body{
+    background: url("../images/backgrond.jpg")
+    no-repeat center center;
+    background-size: cover;
+    height: 90vh;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    opacity: 0.5;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 8vh;
+    background-color: #2863ab ;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav-list{
+    list-style: none;
+    display: flex;
+}
+
+.nav-list li{
+    letter-spacing: 3px;
+    margin-left: 32px;
+}
+
+.filter {
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+    opacity: -7;
+}
+
+table {
+    position: absolute;
+    z-index: z;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 70%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    border-radius: 0px 0px 0 0;
+    overflow: hidden;
+    box-shadow: 0 2px 12px rgba(32, 32, 32, .3);
+    background: #fafafa;
+    text-align: center;
+}
+
+th, td {
+    padding: 12px 15px; /* Adiciona espaço interno nas células */
+}
+
+th {
+    background: #10b940;
+    color: #fff; /* Cor do texto dos cabeçalhos */
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+}
+
+td {
+    font-family: 'Open Sans', sans-serif;
+    border-bottom: 1px solid #ccc; /* Linha de separação entre as células */
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2; /* Estilo de fundo para linhas pares */
+}
+
+tr:hover {
+    background-color: #d4e3fd; /* Estilo de fundo quando o mouse passa por cima da linha */
+}
+
+.deleteButton{
+        background-color: #f31d1de4; /* Green */
+        border: none;
+        color: white;
+        padding: 15px 25px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 15px;
+        border-radius: 8%;
+}
+
+.updateButton{
+    background-color: #432ff7e4; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    border-radius: 8%;
+}
