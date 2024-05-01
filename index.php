@@ -35,12 +35,12 @@ if (isset($_GET['erro'])) {
 
             <div class="inputs">
                 <label for="">Email</label>
-                <input type="text" name="email" placeholder="Sua senha:">
+                <input type="text" name="email" placeholder="Seu email:">
             </div>
 
             <div class="inputs">
                 <label for="">Senha</label>
-                <input type="text" name="senha" placeholder="Seu email">
+                <input type="text" name="senha" placeholder="Sua senha">
             </div>
 
             <button href="" class="btn-login">Submit</button>
